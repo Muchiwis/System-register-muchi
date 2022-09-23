@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: unset;
+    
+}
+
+div{
+    padding-left: 50px;
+
+    /*white-space:normal;*/
+}
+.nav-enlace{
+    padding-left: 600px;
+    
+}
+div a{
+    margin: 30px;
+}
+
+.form-inline{
+    display: flex; 
+    flex-wrap: nowrap;
+}
+.form-control{
+    margin-right: 15px;
+}
+
+.navbar{
+    padding: 20px;
+}
+.navbar a{
+    color: white;
+}
+.pie-pagina{
+    margin-top: 330px;
+}
+div a{
+    text-decoration: none;
+    font-size:18px;
+}
+a:hover{
+    color: aqua;
+}

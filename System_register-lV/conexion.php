@@ -1,6 +1,6 @@
 <?php 
  try {
-     $enlace = new PDO('mysql:host=127.0.0.1;dbname=sistema_registro;','root','');
+     $enlace = new PDO('mysql:host=127.0.0.1;dbname=SistemaAlumno;','root','');
 
      if(!empty($enlace)){
          //echo "Base de datos funcional";
@@ -11,5 +11,4 @@
  } catch (Exception $e) {
         die('Error: '. $e->getMessage());
  }
-
 ?>

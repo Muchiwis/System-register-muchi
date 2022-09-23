@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+div{
+    padding-left: 4px;
+    padding-top: 10px;
+}
+div .red-social{
+    height: 120px;
+    padding-top: 0px;
+
+}
+div .box h2{
+    margin-bottom: 0px;
+}
+.pie-pagina{
+    width: 100%;
+    height: 0%;
+    background-color: black;
+    margin-top: 0px;
+
+}
+.pie-pagina .group-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);/*3 columnas y que ocupe todo el ancho*/
+    grid-gap: 40px; /*tamaño de columna*/
+    padding: 5px 0px;
+}
+.group-1{
+    padding-bottom: 0px;
+    height: 125px;
+}
+div .box{
+    height: 120px;
+}
+.pie-pagina .group-1 .box figure{
+    /*imagen centrar en medio del contenedor*/
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .group-1 .box figure img{
+    /*tamaño a la imagen*/
+    width: 80px;
+}
+.pie-pagina .group-1 .box h2{
+    color: #fff;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    font-size:15px ;
+    margin-left: 85px;
+}
+.pie-pagina .group-1 .box p{
+    /*estilos a la etiqueta p*/
+    color: #efefef;
+    margin-bottom:0px;
+    font-size: 12px;
+    
+}
+.pie-pagina .group-1 .box .red-social a{
+    /*a los iconos de red social*/
+    display: inline-block;
+    text-decoration: none; /*borrar la linea de subrayado*/
+    width:45px;
+    height:45px;
+    line-height: 45px;  /*altura*/
+    color: #fff;
+    margin-right:10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease; /*efecto en hover*/
+    
+}
+.pie-pagina .group-1 .box .red-social a:hover{
+    /*color al pasar el cursor*/
+    color: aqua;
+}
+.pie-pagina .group-2{
+    background-color: #0a1a2a;
+    padding: 5px 0px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .group-2 small{
+    font-size: 10px;
+}
+@media screen and (max-width:800px) {
+    .pie-pagina .group-1{
+        width: 90%;
+
+        grid-template-columns: repeat(1, 1fr);/*1 columna en responsive*/
+        grid-gap: 30px; /*tamaño de columna*/
+        padding: 35px 0px;
+    }
+}
