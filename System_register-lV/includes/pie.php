@@ -15,10 +15,10 @@
             <div class="box">
                 <h2>Siguemos</h2>
                 <div class="red-social">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-youtube"></a>
+                    <a id="a1" href="·"><img class="icon-edit" src="img/facebook.svg" alt=""></a>
+                    <a id="a1" href="·"><img class="icon-edit" src="img/instagram.svg" alt=""></a>
+                    <a id="a1" href="·"><img class="icon-edit" src="img/whatsapp.svg" alt=""></a>
+                    <a id="a1" href="·"><img class="icon-edit" src="img/youtube.svg" alt=""></a>
                 </div>
             </div>
         </div>

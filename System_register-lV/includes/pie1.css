@@ -74,19 +74,21 @@ div .box{
     height:45px;
     line-height: 45px;  /*altura*/
     color: #fff;
-    margin-right:10px;
+    margin-right:0px;
     background-color: #0d2033;
     text-align: center;
     transition: all 300ms ease; /*efecto en hover*/
     
 }
-.pie-pagina .group-1 .box .red-social a:hover{
-    /*color al pasar el cursor*/
-    color: aqua;
+#a1{
+    margin-right: 7px;
+}
+a img:hover{
+    filter: invert(82%) sepia(64%) saturate(1321%) hue-rotate(109deg) brightness(103%) contrast(90%)
 }
 .pie-pagina .group-2{
     background-color: #0a1a2a;
-    padding: 5px 0px;
+    padding: 10px 0px;
     text-align: center;
     color: #fff;
 }
@@ -102,3 +104,7 @@ div .box{
         padding: 35px 0px;
     }
 }
+.icon-edit{
+    filter: invert(100%) sepia(2%) saturate(2%) hue-rotate(88deg) brightness(105%) contrast(100%);
+}
+

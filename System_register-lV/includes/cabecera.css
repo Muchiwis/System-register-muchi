@@ -1,21 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
 header{
     display: flex;
     flex-direction: column;
     align-items: unset;
-    
 }
-
 div{
     padding-left: 50px;
 
     /*white-space:normal;*/
 }
 .nav-enlace{
-    padding-left: 600px;
+    padding-left: 760px;
     
 }
 div a{
     margin: 30px;
+    color: #fff;
 }
 
 .form-inline{
@@ -41,4 +44,9 @@ div a{
 }
 a:hover{
     color: aqua;
+}
+.cabecera-content{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }

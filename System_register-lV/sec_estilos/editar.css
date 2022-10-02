@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+main{
+    background-color:rgb(240, 110, 71);
+    height: 400px;
+}
+.section-form{
+
+}
+.cont-form{
+    margin: 0 auto; /*PONER AL CENTRO TODO LO QUE CONTIENE*/
+    background-color: rgb(236, 243, 243);
+    padding: 10px;
+    align-items: center;
+    width: max-content;
+    border-radius: 20px;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+    border:2px solid rgb(18, 19, 19);
+}
+input{
+    margin: 10px;
+}
+label{
+    color: rgb(231, 53, 21);
+    font-family:cursive;
+
+    font-size: 20px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    color: rgb(231, 53, 21);
+    font-family:cursive;
+    font-size: 35px;
+}
+button{
+    width: 200px;
+    margin-left: 65px;
+}
